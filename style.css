@@ -1,0 +1,167 @@
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: c
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%)
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-ctr {
+    max-width: 375px;
+    background: rgb(31,39,49);
+    background: linear-gradient(0deg, rgba(24,30,40,1) 0%, rgba(31,39,49,1) 100%);
+    border-radius: 25px;
+    padding: 40px;
+    color: hsl(217, 12%, 63%);
+    margin: 10px;
+}
+
+.card-ctr>h1 {
+    color: white;
+}
+
+.thank-you {
+    display: none;
+}
+
+.start {
+    display: block;
+}
+
+.star-bg {
+    background-color: #262E38;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.rating-options-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.option-bg {
+    background-color: #262E38;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+
+.option-bg:hover {
+    background-color: #7D8898;
+    color: white;
+    cursor: pointer;
+}
+
+.option-bg:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.a-div{
+    width: 100%;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 0px;
+
+}
+
+.a-div:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    /* For desktop: */
+    .option-bg {
+        background-color: #262E38;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+  }
