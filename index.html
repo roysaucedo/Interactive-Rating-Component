@@ -28,7 +28,7 @@
   <body>
     <div class="wrapper">
       <!-- Rating state start -->
-      <div class="card-ctr start">
+      <div id="start-card" class="card-ctr start">
         <div class="star-bg">
           <img src="/images/icon-star.svg" alt="Star" />
         </div>
@@ -38,23 +38,23 @@
           is appreciated to help us improve our offering!
         </p>
         <div class="rating-options-div">
-          <div class="option-bg">
-            <p>1</p>
+          <div id="selectedOption1" class="option-bg">
+            <p id="selectedValue1">1</p>
           </div>
-          <div class="option-bg">
+          <div id="selectedOption2" class="option-bg">
             <p>2</p>
           </div>
-          <div class="option-bg">
+          <div id="selectedOption3" class="option-bg">
             <p>3</p>
           </div>
-          <div class="option-bg">
+          <div id="selectedOption4" class="option-bg">
             <p>4</p>
           </div>
-          <div class="option-bg">
+          <div id="selectedOption5" class="option-bg">
             <p>5</p>
           </div>
         </div>
-        <div class="a-div">
+        <div id="submit-btn" class="a-div">
           <p>submit</p>
         </div>
       </div>
@@ -62,7 +62,7 @@
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
-      <div class="card-ctr thank-you">
+      <div id="ty-card" class="card-ctr thank-you">
         
         <img src="/images/illustration-thank-you.svg" alt="TY" />
 
@@ -89,5 +89,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/roysaucedo">Roy Saucedo</a>.
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

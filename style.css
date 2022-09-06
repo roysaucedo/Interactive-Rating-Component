@@ -82,7 +82,7 @@ p {
 }
 
 .thank-you {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ p {
 }
 
 .start {
-    display: none;
+    display: block;
 }
 
 .star-bg {
