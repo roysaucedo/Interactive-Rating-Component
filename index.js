@@ -122,3 +122,12 @@ function showThankYou(){
 
 }
 
+let outputValue = 0;
+
+// if(){
+//     outputValue = 1;
+// };
+
+
+let ratingOutput = document.getElementById('rating-output');
+ratingOutput.innerText = 'You selected '+ outputValue  +' out of 5'
